@@ -1,3 +1,19 @@
 #+TITLE: Music
 
 Livecoding experiments
+
+* Status
+- Running:
+  `ghci`
+  `ghci> :script BootTidal.hs`
+  properly loads Tidal.
+
+  I was not yet able to get any sound to play,
+  though I was able to verify that tidal establishes a connection to and runs commands through
+  the backend SuperCollider and SuperDirt engine.
+
+  TODO:
+  - Try to get sound playing
+  - Help Emacs mode find the port
+  - Fix 'C-Enter' for Emacs mode evaluation (or use whatever Coq mode uses)
+  - Actually play sound!
