@@ -20,3 +20,13 @@ Livecoding experiments
 
 I'm pretty sure I could hear sound of some sort!
 However, pressing the volume buttons was not able to adjust the volume of the program.
+* Steps
+- Boot SuperCollider:
+  `sclang`
+  `SuperCollider> SuperDirt.start`
+- Boot TidalCycles:
+  `ghci`
+  `ghci> :script BootTidal.hs`
+- Configure for Emacs:
+  M-x rename-buffer vterm<{whatever}> "*tidal*"
+  Emacs is configured to read to and write from a buffer with this name
