@@ -1,1 +1,22 @@
-d2 $ sound "bd sn bd sn bd sn"
+-- play bd sn bd sn bd sn
+d1 $ sound "bd sn bd sn bd sn"
+
+-- play bd sample 5 in the folder
+d1 $ s "bd:05"
+
+-- silence d1
+d1 silence
+
+-- silence everything
+hush
+
+d1
+$
+$
+"bd"
+
+d1 $ s "bd"
+
+d2 $ s "sn sn sn"
+
+d1 $ s "bd(3,8) drum*4"

@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-echo ':script BootTidal.hs' | ghci
+ghci <<< ':script BootTidal.hs'
+# echo ':script BootTidal.hs' | ghci
