@@ -17,3 +17,6 @@ Livecoding experiments
   - Help Emacs mode find the port
   - Fix 'C-Enter' for Emacs mode evaluation (or use whatever Coq mode uses)
   - Actually play sound!
+
+I'm pretty sure I could hear sound of some sort!
+However, pressing the volume buttons was not able to adjust the volume of the program.
